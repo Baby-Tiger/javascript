@@ -2,9 +2,9 @@
 
 let firstVariable = 11 , secoundVariable = 22;
 
-if (firstVariable > secoundVariable) {
+if (firstVariable < secoundVariable) {
 
-    alert("First variable is greater then secound");
+    alert("First variable is greater then secound !\n" + "FirstVariable ->" + firstVariable + ' ' + "SecoundVariable ->" +secoundVariable);
 
 } else {
     
