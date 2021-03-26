@@ -11,6 +11,8 @@ if (firstVariable < secoundVariable) {
     alert("Secound variable is greater then firts");
 
 }
+// error resolved 
+
 /*alertbox.js:5 Uncaught ReferenceError: secoundVariable is not defined
     at alertbox.js:5
 (anonymous) @ alertbox.js:5
