@@ -54,3 +54,21 @@ function addition(parameter1 , parameter2) {
 // calling function
 
 addition(10, 20);
+
+// displaying user name
+
+ let firstName, lastName, fullName;
+ function userName(firstName, lastName) {
+     document.write("<br>");
+     document.write("Hey!" +firstName + " " +lastName);
+ }
+
+ // calling displaying function
+
+ userName("Ali", "Khan");
+
+ /*Error was caught in calling function because
+ 1.userName(Ali, Khan);
+ 2.userName("Ali","Khan");
+  in this case first statement is wrong because it takes string argument*/
+  
