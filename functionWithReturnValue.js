@@ -14,7 +14,6 @@ let value = functionName(argument1, argument2);
 
 let value, returnValue, firstName, lastName, fullName;
 function userName(firstName, lastName) {
-
     
     returnValue = ("Hey!&nbsp" +firstName + " " +lastName);
     return returnValue;
@@ -39,11 +38,13 @@ function totalSubjectMarks (science,math,biology) {
 totalMarks = totalSubjectMarks(10,20,30);
 document.write(totalMarks);
 
+document.write("<br>");
+
 function totalPercentage(totalMarks) {
     totalpercentage = (totalMarks/300)*100;
     return totalpercentage;
 }
-percentage = totalPercentage(totalpercentage);
+percentage = totalPercentage(totalMarks);
 document.write(percentage);
 
 
